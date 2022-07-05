@@ -1,0 +1,21 @@
+.container {
+    width: 550px;
+    height: 200px;
+    border-right: 1px solid gray;
+    font-size: 0;
+}
+
+.section1 {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    background-color: #F5B9C2;
+    margin-top: 70px;
+}
+
+.section2 {
+    display: inline-block;
+    width: 50px;
+    height: 100px;
+    background-color: #E28683;
+}

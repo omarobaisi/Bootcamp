@@ -1,0 +1,113 @@
+#container {
+  height: 100vh;
+  display: grid;
+
+  grid-template-areas: "n" "c" "c" "c" "c" "c" "c" "f";
+}
+
+/*! Navbar */
+
+#navbar {
+  grid-area: n;
+  display: grid;
+  background-color: #2c3e50;
+  grid-template-columns: repeat(2, 1fr);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.main-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.nav-item {
+  display: grid;
+  align-content: center;
+  color: #ecf0f1;
+  height: 100%;
+  font-size: 20px;
+}
+
+.logo {
+  text-align: center;
+}
+.fa-css3 {
+  font-size: 40px;
+}
+
+.home {
+  text-align: end;
+}
+
+.about {
+  text-align: center;
+}
+
+.contact {
+  text-align: start;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: black;
+}
+
+/*! Content */
+
+#content {
+  grid-area: c;
+
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.left,
+.mid,
+.right {
+  justify-content: center;
+  align-items: center;
+}
+
+.element {
+  border: 2px solid #2c3e50;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.left {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.mid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.right {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/*! Footer */
+
+#footer {
+  grid-area: f;
+  text-align: end;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  margin-top: auto;
+}
+
+.footerHead {
+  font-size: 40px;
+}

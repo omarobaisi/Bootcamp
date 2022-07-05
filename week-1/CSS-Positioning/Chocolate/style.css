@@ -1,0 +1,24 @@
+#parent {
+  background-color: black;
+  width: 400px;
+  height: 220px;
+  position: relative;
+  border: 3px solid black;
+}
+
+.box {
+  width: 97px;
+  height: 105px;
+  background-color: #66320e;
+  display: inline-block;
+}
+
+#strip {
+  height: 3px;
+  width: 100%;
+  background-color: darkred;
+}
+
+#blackBox {
+  background-color: black;
+}

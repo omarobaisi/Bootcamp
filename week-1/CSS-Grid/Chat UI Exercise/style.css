@@ -1,0 +1,95 @@
+#nav-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr, 4fr;
+  grid-template-areas: "s c c c c";
+}
+
+/*  */
+
+.side-nav {
+  grid-area: s;
+  background-color: #8e44ad;
+  padding: 10px;
+
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.friend {
+  font-weight: bold;
+}
+
+.friendName {
+  display: block;
+  background-color: #9b59b6;
+  padding: 10px;
+}
+
+/*  */
+
+.chat-window {
+  grid-area: c;
+  background-color: #ecf0f1;
+
+  display: grid;
+  grid-template-rows: 16fr;
+  grid-template-areas: "c" "c" "c" "c" "c" "c" "c" "c" "c" "c" "c" "c" "c" "c" "c" "m";
+}
+
+/*  */
+
+.chat {
+  grid-area: c;
+}
+
+.chatMessage {
+  display: inline-block;
+  padding: 5px;
+  margin: 50px;
+  font-family: "Kaushan Script", cursive;
+  min-width: 50px;
+}
+
+.grayChat {
+  background-color: #bdc3c7;
+}
+
+.greenChatDiv {
+  text-align: end;
+}
+
+.greenChat {
+  background-color: #2ecc71;
+}
+
+.time {
+  font-size: 10px;
+  text-align: end;
+}
+
+/*  */
+
+.message {
+  grid-area: m;
+  width: 100%;
+  font-size: 0;
+}
+
+.message input {
+  display: inline-block;
+  width: 80%;
+  box-sizing: border-box;
+  border: 0;
+  padding: 10px;
+}
+
+.message button {
+  display: inline-block;
+  width: 20%;
+  box-sizing: border-box;
+  background-color: #8e44ad;
+  border: 0;
+  color: white;
+  padding: 10px;
+}

@@ -1,0 +1,12 @@
+.container {
+    width: 40%;
+    font-size: 0;
+}
+
+.box1, .box2, .box3 {
+    background-color: #F5B9C2;
+    width: calc(50px + 50px);
+    height: calc(50px + 50px);
+    display: inline-block;
+    border: 3px solid #000000;
+}
