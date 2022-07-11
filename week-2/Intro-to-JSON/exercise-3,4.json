@@ -1,0 +1,121 @@
+{
+    {
+        "name": "cow",
+        "weigh": {
+            "kilograms": 575,
+            "tons": 0.633829
+        },
+        "living location": [
+            "South America",
+            "Europe",
+            "Africa",
+            "Asia",
+            "Australia"
+        ],
+        "endangered": false,
+        "diet": [
+            {
+                "name": "Gras",
+                "percentage": 27
+            },
+            {
+                "name": "Hay",
+                "percentage": 63
+            },
+            {
+                "name": "Silage",
+                "percentage": 10
+            }
+        ],
+        "prey": null,
+        "taste": 5
+    },
+    
+    {
+        "name": "elephant",
+        "weigh": {
+            "kilograms": 4309,
+            "tons": 4.749859
+        },
+        "living location": [
+            "savannas",
+            "grasslands",
+            "forests"
+        ],
+        "endangered": true,
+        "diet": [
+            {
+                "name": "savannah grasses",
+                "percentage": 20
+            },
+            {
+                "name": "shrubs",
+                "percentage": 18
+            },
+            {
+                "name": "herbs",
+                "percentage": 22
+            },
+            {
+                "name": "herbs",
+                "percentage": 40
+            },
+        ],
+        "prey": null,
+        "taste": 2
+    },
+    
+    {
+        "name": "Wwolf",
+        "weigh": {
+            "kilograms": 47,
+            "tons": 0.0518086
+        },
+        "living location": [
+            "North America",
+            "Europe",
+            "Asia ",
+            "North Africa"
+        ],
+        "endangered": false,
+        "diet": {
+            "name": "carnivores",
+            "percentage": 100
+        },
+        "prey": [
+            "deer",
+            "elk",
+            "moose",
+            "bison"
+        ],
+        "taste": 3
+    },
+    
+    {
+        "name": "squirrel",
+        "weigh": {
+            "kilograms": 8,
+            "tons": 0.00881849
+        },
+        "living location": [
+            "Asia",
+            "Africa",
+            "Europe",
+            "North America",
+            "South America"
+        ],
+        "endangered": true,
+        "diet": [
+            {
+                "name": "dried corn",
+                "percentage": 50
+            },
+            {
+                "name": "the cob",
+                "percentage": 50
+            },
+        ],
+        "prey": null,
+        "taste": 3
+    }
+}
