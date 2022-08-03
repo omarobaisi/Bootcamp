@@ -6,9 +6,7 @@ const allVisitors = [];
 Visitor.find({})
   .populate("visitedPlanets")
   .then((visitors) => {
-    visitors.forEach((visitor) => {
-      visitors.forEach((visitor) => allVisitors.push(visitor.name));
-    });
+    visitors.forEach((visitor) => allVisitors.push(visitor.name));
     console.log("visitors are: " + allVisitors);
   });
 
