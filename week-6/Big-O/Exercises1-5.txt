@@ -1,0 +1,19 @@
+# Exercise 1
+
+O(n)
+
+# Exercise 2
+
+O(lon(n))
+
+# Exercise 3
+
+O(1)
+
+# Exercise 4
+
+O(mn)
+
+# Exercise 5
+
+O(n)
